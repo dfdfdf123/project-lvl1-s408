@@ -1,0 +1,13 @@
+{
+    "name": "john/brain-games",
+    "bin": [
+        "bin/brain-games"
+    ],    
+    "authors": [
+        {
+            "name": "johnromanoff",
+            "email": "johnromanoff@yandex.ru"
+        }
+    ],
+    "require": {}
+}
