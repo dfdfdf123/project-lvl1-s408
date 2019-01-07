@@ -2,7 +2,8 @@
     "name": "johnromanoff/brain-games",
     "bin": [
         "bin/brain-games"
-    ],    
+    ],
+    "description": "Brain games",
     "authors": [
         {
             "name": "johnromanoff",
