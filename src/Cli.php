@@ -5,16 +5,17 @@ namespace BrainGames\Cli;
 use function \cli\line;
 use function \cli\prompt;
 
-function isEven($num)
+function greeting()
 {
-    return $num % 2 === 0;
+    line("Welcome to the Brain Games!\n");
+    $name = prompt('May I have your name?');
+    line("Hello {$name}");
 }
 
-function run($game)
+function run($game, $description)
 {
     line('Welcome to the Brain Game!');
-    line('Answer "yes" if number even otherwise answer "no"');
-    line();
+    line("{$description}\n");
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     $tries = 0;
@@ -32,15 +33,4 @@ function run($game)
         }
     }
     line("Congratulations, {$name}");
-}
-
-function evenGame()
-{
-    $genData = function () {
-        $randomNumber = rand(1, 100);
-        $correctAnswer = isEven($randomNumber) ? 'yes' : 'no';
-        return [ 'question' => $randomNumber, 'correctAnswer' => $correctAnswer ];
-    };
-
-    return run($genData);
 }
