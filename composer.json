@@ -3,7 +3,14 @@
     "bin": [
         "bin/brain-games"
     ],
+    "type": "library",
+    "license": "MIT",
     "description": "Brain games",
+    "keywords": [
+        "Hexlet",
+        "Brain Games",
+        "Project"
+    ],
     "authors": [
         {
             "name": "johnromanoff",
