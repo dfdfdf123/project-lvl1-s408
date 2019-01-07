@@ -1,5 +1,5 @@
 {
-    "name": "john/brain-games",
+    "name": "johnromanoff/brain-games",
     "bin": [
         "bin/brain-games"
     ],    
