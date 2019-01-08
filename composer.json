@@ -4,7 +4,7 @@
         "bin/brain-games",
         "bin/brain-even"
     ],
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "description": "Brain games",
     "keywords": [
