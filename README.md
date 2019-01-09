@@ -4,4 +4,4 @@
 [![Code Climate](https://codeclimate.com/github/johnromanoff/project-lvl1-s408/badges/gpa.svg)](https://codeclimate.com/github/johnromanoff/project-lvl1-s408)
 [![Issue Count](https://codeclimate.com/github/johnromanoff/project-lvl1-s408/badges/issue_count.svg)](https://codeclimate.com/github/johnromanoff/project-lvl1-s408)
 
-https://asciinema.org/a/fGXptOGBZpaiKGQJQ7JAPvoy2
+https://asciinema.org/a/220385
