@@ -14,7 +14,7 @@ function getRandomOperator($operators)
 
 function calcGame()
 {
-    $genData = function () {
+    $generateData = function () {
         $firstNumber = rand(1, 10);
         $secondNumber = rand(1, 10);
         $operator = getRandomOperator(OPERATORS);
@@ -32,5 +32,5 @@ function calcGame()
         }
         return [ 'question' => $question, 'correctAnswer' => "{$correctAnswer}" ];
     };
-    return run($genData, DESCRIPTION);
+    return run($generateData, DESCRIPTION);
 }

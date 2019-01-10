@@ -17,7 +17,7 @@ function getGreatestCommonDivisor($x, $y)
 
 function gcdGame()
 {
-    $genData = function () {
+    $generateData = function () {
         $firstNumber = rand(1, 10);
         $secondNumber = rand(1, 10);
         $question = "{$firstNumber} {$secondNumber}";
@@ -25,5 +25,5 @@ function gcdGame()
         return [ 'question' => $question, 'correctAnswer' => "{$correctAnswer}" ];
     };
 
-    return run($genData, DESCRIPTION);
+    return run($generateData, DESCRIPTION);
 }

@@ -13,11 +13,11 @@ function isEven($num)
 
 function evenGame()
 {
-    $genData = function () {
+    $generateData = function () {
         $randomNumber = rand(1, 100);
         $correctAnswer = isEven($randomNumber) ? 'yes' : 'no';
         return [ 'question' => $randomNumber, 'correctAnswer' => $correctAnswer ];
     };
 
-    return run($genData, DESCRIPTION);
+    return run($generateData, DESCRIPTION);
 }
