@@ -5,7 +5,7 @@
         "bin/brain-even",
         "bin/brain-calc",
         "bin/brain-gcd",
-        "bin/progression"
+        "bin/brain-progression"
     ],
     "type": "project",
     "license": "MIT",
