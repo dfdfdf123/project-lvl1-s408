@@ -6,4 +6,4 @@
 
 https://asciinema.org/a/220398
 
-[![brain-progression](https://asciinema.org/a/220686)]
+# ![brain-progression](https://asciinema.org/a/220686)
