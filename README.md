@@ -5,3 +5,5 @@
 [![Issue Count](https://codeclimate.com/github/johnromanoff/project-lvl1-s408/badges/issue_count.svg)](https://codeclimate.com/github/johnromanoff/project-lvl1-s408)
 
 https://asciinema.org/a/220398
+
+[![brain-progression](https://asciinema.org/a/220686)]
