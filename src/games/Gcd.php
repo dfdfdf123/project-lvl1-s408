@@ -8,7 +8,7 @@ const DESCRIPTION = 'Find the greatest common divisor of given numbers.';
 
 function getGreatestCommonDivisor($x, $y)
 {
-    if ($y) {
+    if ($y > 0) {
         return getGreatestCommonDivisor($y, $x % $y);
     }
 
