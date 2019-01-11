@@ -11,8 +11,7 @@ function generateProgression($start, $step)
 {
     $result = [];
     for ($i = 0; $i < MAX_LENGTH; $i += 1) {
-        $result[] = $start;
-        $start += $step;
+        $result[] = $start + $step * $i;
     }
 
     return $result;
@@ -25,10 +24,10 @@ function progressionGame()
         $step = rand(1, 10);
         $progression = generateProgression($start, $step);
         $copyProgression = array_slice($progression, 0);
-        $randomIndex = rand(0, count($progression) - 1);
-        $copyProgression[$randomIndex] = '..';
+        $hiddenElementPosition = rand(0, count($progression) - 1);
+        $copyProgression[$hiddenElementPosition] = '..';
         $question = implode(' ', $copyProgression);
-        $correctAnswer = $progression[$randomIndex];
+        $correctAnswer = $progression[$hiddenElementPosition];
         return [ 'question' => $question, 'correctAnswer' => "{$correctAnswer}" ];
     };
 
